@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.bilal.edoo.SplashActivity">
+
+    <TextView
+        android:id="@+id/textV_welcome"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:fontFamily="cursive"
+        android:text="Welcome to Our App"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#ceeb29"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        android:layout_above="@+id/imageView_D"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="72dp" />
+
+    <ImageView
+        android:id="@+id/imageView_e"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/textV_welcome"
+        android:layout_alignStart="@+id/textV_welcome"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="88dp"
+        android:layout_marginStart="100dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_e" />
+
+    <ImageView
+        android:id="@+id/imageView_D"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignBottom="@+id/imageView_e"
+        android:layout_alignLeft="@+id/imageView_e"
+        android:layout_alignStart="@+id/imageView_e"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_d" />
+
+
+    <ImageView
+        android:id="@+id/imageView_o"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@+id/imageView_e"
+        android:layout_alignStart="@+id/imageView_e"
+        android:layout_alignTop="@+id/imageView_e"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="85dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_o" />
+
+    <ImageView
+        android:id="@+id/imageView_O_1"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignLeft="@+id/imageView_e"
+        android:layout_alignStart="@+id/imageView_e"
+        android:layout_alignTop="@+id/imageView_e"
+        android:layout_marginLeft="33dp"
+        android:layout_marginStart="57dp"
+        android:visibility="invisible"
+        app:srcCompat="@mipmap/ic_o" />
+
+</RelativeLayout>

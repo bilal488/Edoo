@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "782451292459",
+    "firebase_url": "https://edoo-96cfc.firebaseio.com",
+    "project_id": "edoo-96cfc",
+    "storage_bucket": "edoo-96cfc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:782451292459:android:510c7e5160dde0f0",
+        "android_client_info": {
+          "package_name": "com.example.bilal.edoo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "782451292459-9t1i75227br2pdkrcle1rkhtfa175leo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.bilal.edoo",
+            "certificate_hash": "50bf3d1f1970e64c060e7ea534086ef5850f0660"
+          }
+        },
+        {
+          "client_id": "782451292459-7naneku1lim8uvde8s669qk0pu024a3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYyu-YvNx91IgqGJ8j6fFgrlQJu0JUtdk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "782451292459-7naneku1lim8uvde8s669qk0pu024a3p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

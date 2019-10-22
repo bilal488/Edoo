@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#418e0a"
+    android:padding="16dp"
+    tools:context="com.example.bilal.edoo.LoginActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="120dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        app:srcCompat="@drawable/icon" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutName"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true">
+
+        <EditText
+            android:id="@+id/EditTextName"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@android:color/background_light"
+            android:hint="Name"
+            android:paddingLeft="2dp"
+            android:textColorHint="@android:color/background_dark"
+            tools:inputType="textPersonName" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutEmail"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="19dp"
+        android:background="@drawable/rounded_edit_text"
+        android:layout_below="@+id/TextInputLayoutName"
+        android:layout_alignLeft="@+id/TextInputLayoutName"
+        android:layout_alignStart="@+id/TextInputLayoutName">
+
+        <EditText
+            android:id="@+id/EditTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:background="@android:color/background_light"
+            android:hint="Email Address"
+            android:paddingLeft="2dp"
+            android:textColorHint="@android:color/background_dark"
+            tools:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/TextInputLayoutPassword"
+
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_edit_text"
+        android:paddingLeft="2dp"
+        app:passwordToggleEnabled="true"
+        android:layout_below="@+id/TextInputLayoutEmail"
+        android:layout_alignLeft="@+id/TextInputLayoutEmail"
+        android:layout_alignStart="@+id/TextInputLayoutEmail">
+
+        <EditText
+            android:id="@+id/EditTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="28dp"
+            android:layout_weight="1"
+            android:background="@android:color/background_light"
+            android:hint="Password"
+            android:inputType="textPassword" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/rounded_button"
+        android:text="Login"
+        android:textColor="@android:color/background_light"
+        android:layout_below="@+id/TextInputLayoutPassword"
+        android:layout_alignLeft="@+id/TextInputLayoutPassword"
+        android:layout_alignStart="@+id/TextInputLayoutPassword" />
+
+    <TextView
+        android:id="@+id/textViewsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:clickable="true"
+        android:text="Create an account"
+        android:textColor="@android:color/background_light"
+        android:textSize="18sp" />
+
+</RelativeLayout>
